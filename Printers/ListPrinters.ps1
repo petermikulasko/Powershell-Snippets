@@ -1,0 +1,1 @@
+﻿Get-WMIObject -Class Win32_Printer -Computer localhost | Select Name,DriverName,PortName,Shared,ShareName | ft -auto
