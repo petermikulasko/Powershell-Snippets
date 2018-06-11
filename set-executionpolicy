@@ -1,0 +1,2 @@
+ #remotely sets execution policy on target Server.
+  "C:\SysinternalsSuite\psexec.exe \\$Server -accepteula -h Powershell.exe `"set-executionpolicy unrestricted -force`""
